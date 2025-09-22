@@ -22,9 +22,7 @@ export function About() {
 
   const stats = [
     { icon: Users, label: 'Satisfied Clients', value: '200+' },
-    { icon: Award, label: 'Design Awards', value: '25+' },
-    { icon: Globe, label: 'Countries', value: '12+' },
-    { icon: Compass, label: 'Years Experience', value: '15+' },
+    { icon: Compass, label: 'Years Experience', value: '25+' },
   ];
 
   return (
@@ -112,7 +110,7 @@ export function About() {
         </div>
 
         {/* Stats */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
               <div className="w-16 h-16 bg-slate-800 rounded-full flex items-center justify-center mx-auto mb-4">

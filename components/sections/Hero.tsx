@@ -69,15 +69,11 @@ export function Hero() {
 
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
               <div className="text-center">
-                <div className="text-3xl font-bold text-slate-800 mb-1">150+</div>
+                <div className="text-3xl font-bold text-slate-800 mb-1">50+</div>
                 <div className="text-sm text-gray-600 uppercase tracking-wider">Projects</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-slate-800 mb-1">25+</div>
-                <div className="text-sm text-gray-600 uppercase tracking-wider">Awards</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-slate-800 mb-1">15</div>
+                <div className="text-3xl font-bold text-slate-800 mb-1">25</div>
                 <div className="text-sm text-gray-600 uppercase tracking-wider">Years</div>
               </div>
             </div>
@@ -95,19 +91,6 @@ export function Hero() {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent" />
-              </div>
-              
-              {/* Floating Card */}
-              <div className="absolute -bottom-8 -left-8 bg-white p-6 shadow-xl border border-gray-100 max-w-xs">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center">
-                    <Building className="w-6 h-6 text-slate-600" />
-                  </div>
-                  <div>
-                    <div className="font-semibold text-gray-900">Sustainable Design</div>
-                    <div className="text-sm text-gray-600">LEED Certified Projects</div>
-                  </div>
-                </div>
               </div>
 
               {/* Geometric Accent */}

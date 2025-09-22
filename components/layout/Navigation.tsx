@@ -37,7 +37,7 @@ export function Navigation() {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-gradient-to-br from-slate-800 to-slate-600 rounded-sm flex items-center justify-center">
-              <Image src="/logo.png" alt="logo" width={64} height={64} />
+              <Image src="/images/logo.webp" alt="logo" width={64} height={64} />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-900 font-playfair">Singh</span>

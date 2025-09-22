@@ -41,14 +41,14 @@ export function Contact() {
     {
       icon: Phone,
       title: 'Phone',
-      info: '+1 (555) 123-4567',
+      info: '+91 90904 40428',
       description: 'Call for immediate consultation',
     },
     {
       icon: MapPin,
       title: 'Studio',
-      info: '123 Design District, Suite 500',
-      description: 'San Francisco, CA 94105',
+      info: 'Amlapada 4th lane',
+      description: 'Angul, Odisha',
     },
     {
       icon: Clock,
@@ -96,7 +96,7 @@ export function Contact() {
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-white rounded-full mr-4 mt-2 flex-shrink-0"></div>
-                  <span>15+ years of architectural excellence</span>
+                  <span>25+ years of architectural excellence</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-white rounded-full mr-4 mt-2 flex-shrink-0"></div>

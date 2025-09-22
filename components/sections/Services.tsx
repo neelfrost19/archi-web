@@ -24,7 +24,7 @@ export function Services() {
       icon: TreePine,
       title: 'Sustainable Design',
       description: 'Environmentally conscious architecture that minimizes impact and maximizes efficiency.',
-      features: ['LEED Certification', 'Green Building', 'Energy Efficiency', 'Sustainable Materials'],
+      features: ['Green Building', 'Energy Efficiency', 'Sustainable Materials'],
     },
     {
       icon: Lightbulb,

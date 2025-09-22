@@ -1,4 +1,5 @@
 import { Building2, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import Image from "next/image";
 
 export function Footer() {
   const footerLinks = {
@@ -15,16 +16,16 @@ export function Footer() {
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-white rounded-sm flex items-center justify-center">
-                <Building2 className="w-6 h-6 text-slate-900" />
+              <div className="w-10 h-10 bg-gradient-to-br from-slate-800 to-slate-600 rounded-sm flex items-center justify-center">
+                <Image src="/images/logo.webp" alt="logo" width={64} height={64}/>
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold font-playfair">Nexus</span>
-                <span className="text-xs text-gray-400 -mt-1 tracking-wider">ARCHITECTURE</span>
+                <span className="text-xl font-bold font-playfair">Singh</span>
+                <span className="text-xs text-gray-400 -mt-1 tracking-wider">DESIGN</span>
               </div>
             </div>
             <p className="text-gray-400 mb-8 leading-relaxed">
-              Creating exceptional architectural spaces that inspire and endure. 
+              Creating exceptional architectural spaces that inspire and endure.
               Award-winning design solutions for residential, commercial, and sustainable projects.
             </p>
             
@@ -36,7 +37,7 @@ export function Footer() {
               </div>
               <div className="flex items-center text-gray-400">
                 <Phone className="w-4 h-4 mr-3" />
-                +1 (555) 123-4567
+                +91 90904 40428
               </div>
               <div className="flex items-center text-gray-400">
                 <MapPin className="w-4 h-4 mr-3" />
