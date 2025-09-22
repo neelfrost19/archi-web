@@ -34,18 +34,18 @@ export function Hero() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
             <div className="space-y-6">
-              <Badge className="bg-slate-100 text-slate-800 border-slate-200 px-4 py-2">
+              <Badge className="hidden lg:inline-flex bg-slate-100 text-slate-800 border-slate-200 px-4 py-2">
                 <Award className="w-4 h-4 mr-2" />
                 Award-Winning Design Studio
               </Badge>
-              <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight font-playfair">
+              <h1 className="pt-[70px] lg:pt-0 text-5xl md:text-7xl font-bold text-gray-900 leading-tight font-playfair">
                 Architectural
                 <span className="block text-slate-600">
-                  Excellence
-                </span>
+    Excellence
+  </span>
               </h1>
               <p className="text-xl text-gray-700 max-w-lg leading-relaxed">
-                We create extraordinary spaces that inspire, function beautifully, and stand the test of time. 
+                We create extraordinary spaces that inspire, function beautifully, and stand the test of time.
                 From concept to completion, we bring architectural visions to life.
               </p>
             </div>
