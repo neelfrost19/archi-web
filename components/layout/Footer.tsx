@@ -41,7 +41,7 @@ export function Footer() {
               </div>
               <div className="flex items-center text-gray-400">
                 <MapPin className="w-4 h-4 mr-3" />
-                123 Design District, San Francisco
+                Amlapada 4th lane, Angul, Odisha
               </div>
             </div>
           </div>

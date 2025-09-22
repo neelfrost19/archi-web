@@ -21,7 +21,7 @@ export function About() {
   ];
 
   const stats = [
-    { icon: Users, label: 'Satisfied Clients', value: '200+' },
+    { icon: Users, label: 'Satisfied Clients', value: '50+' },
     { icon: Compass, label: 'Years Experience', value: '25+' },
   ];
 
